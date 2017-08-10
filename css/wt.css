@@ -8,7 +8,7 @@ Authors ....... Dennis Gaebel (@gryghostvisuals) & Zachary Kain (@zakkain)
 License ....... Creative Commmons Attribution 3.0
 License URL ... https://github.com/typeplate/starter-kit/blob/master/license.txt
 */
-@import url("https://fonts.googleapis.com/css?family=Lato|Libre+Baskerville");
+@import url("https://fonts.googleapis.com/css?family=Lato:300|Libre+Baskerville");
 @font-face {
   font-family: "Ampersand";
   src: local("Georgia"), local("Garamond"), local("Palatino"), local("Book Antiqua");
@@ -1785,6 +1785,7 @@ img {
     background: #fff; }
 
 #main_content p {
+  font-family: "Libre Baskerville", serif;
   clear: both;
   text-align: justify; }
 
@@ -1800,9 +1801,9 @@ img {
 
 .banner h1 {
   font-size: 2.2rem;
-  color: white;
-  text-shadow: 1px 1px 5px grey;
-  padding: 1rem; }
+  color: #eeeeee;
+  text-shadow: 0.1rem 0.1rem 0.1rem black;
+  padding: 0.4rem; }
 
 .home-link {
   color: black;
@@ -1813,8 +1814,7 @@ img {
   float: left; }
 
 body {
-  font-family: "Libre Baskerville", serif;
-  color: #5a5a5a; }
+  font-family: "Lato", sans-serif; }
 
 img {
   width: 50%;
